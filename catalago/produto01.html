@@ -120,6 +120,37 @@
         background-color: black;  
         color: white; 
     }
+
+    @media screen and (min-width: 200px) and (max-width: 640px) { 
+        main, .compra-produto1 {
+            display: flex;
+            flex-direction: column;
+        }
+
+        nav .pesquisa {
+            display: none;
+        }
+
+        .compra-produto1 {
+            width: 90%;
+        }
+
+        .descricao-produto {
+            width: 100%;
+        }
+
+        .produto1-1 {
+            width: 100%;
+        }
+
+        .frete input { 
+            width: 75%;
+        }
+
+        .descricao-produto .compra { 
+            width: 95%;
+        }
+    }
     </style>
 </head>
 <body>
@@ -136,6 +167,7 @@
             <a href="..//telainicio/portfolio.html">Sair</a>
         </span>
     </nav>
+
 
     <main>
         <section class="compra-produto1">

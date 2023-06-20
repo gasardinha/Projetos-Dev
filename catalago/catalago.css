@@ -148,3 +148,33 @@ nav a {
 }
 
 
+@media screen and (min-width: 200px) and (max-width: 640px) { 
+    main, .produtos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    } 
+
+    .chamada-principal {
+        text-align: center;
+    }
+
+    .produtos {
+        height: 1200px;
+    }
+
+    .produto2, .produto3 {
+        margin-top: 10%;
+    }
+
+    .pesquisa {
+        width: 50%;
+    }
+
+    .pesquisa > img {
+        width: 15%;
+    }
+}
+
+
