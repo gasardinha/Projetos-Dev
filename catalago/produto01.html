@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blusa Branca :: GSTORE</title>
+    <link rel="stylesheet" href="catalago.css">
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Girassol&display=swap');
+        main {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+        .produto1-1 {
+            width: 600px;
+            height: 650px;
+            background-image: url(..//imagens/produto1.jpg);
+            background-size: cover;
+        }
+
+        .compra-produto1 {
+            margin-top: 2%;
+            display: flex;
+            flex-direction: row;
+            width: 90%;
+        }
+
+        .descricao-produto {
+            display: flex;
+            flex-direction: column;
+            margin-left: 3%;
+            width: 50%;
+           
+        }
+
+        .descricao-produto .cor{
+            width: 30px;
+            height: 30px;
+            background-color: white;
+            border: 1px solid black;
+            border-radius: 50px 50px;
+        }
+
+        .descricao-produto a {
+            text-decoration: none;
+            font-weight: bold;
+            color: black;
+            
+            background-color: white;
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        .descricao-produto h2 {
+            font-size: 40px;
+            font-family: 'Girassol', cursive;
+        }
+
+       .descricao-produto .compra {
+            width: 80%;
+            height: 50px;
+            background-color: #128E5B;
+            color: white;
+            font-weight: bold;
+            font-size: 20px;
+            border: none;
+            border-radius: 8px;
+
+       }
+
+       .quantidade input {
+            width: 50px;
+            height: 30px;
+            text-align: center;
+            border-radius: 5px;
+            border: 0.1em solid rgba(0, 0, 0, 0.233);
+            background-color: rgba(0, 0, 0, 0.233);
+       }
+
+       .frete {
+            display: flex;
+           flex-direction: column;
+            width: 80%;
+       }
+
+       .frete input {
+        width: 60%;
+        height: 40px;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-bottom: 2px solid black;
+        margin-right: 1%;
+       }
+
+       .sacola {
+        text-decoration: none;
+        background-color: none;
+       }
+
+       .txt-produto {
+        display: flex;
+        padding: 10px;
+        flex-direction: column;
+        width: 90%;
+        height: 700px;
+        margin-top: 30px;
+        border-top: 1px solid rgba(214, 210, 210, 0.541);
+        border-bottom: 1px solid rgba(214, 210, 210, 0.541);
+       }
+
+      footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 80px; 
+        width: 100%;
+        background-color: black;  
+        color: white; 
+    }
+    </style>
+</head>
+<body>
+    <nav>
+        <div>
+            <i>LOGO</i>
+        </div>
+        <div class="pesquisa">
+            <img src="..//imagens/pesq.png" alt="Pesquisa">
+        </div>
+        <span>
+            <a href="#">Início</a>
+            <a href="#">Contatos</a>
+            <a href="..//telainicio/portfolio.html">Sair</a>
+        </span>
+    </nav>
+
+    <main>
+        <section class="compra-produto1">
+            <div class="produto1-1">
+            </div>
+
+            <div class="descricao-produto">
+                <h2>Moletom Branco</h2>
+                <p style="font-size: 10px; color: rgb(135, 145, 155);">Código: 598325811</p><br>
+                <p style="font-weight: bold;color: red; font-size: 30px; font-family: 'Girassol', cursive;">R$ 279,99</p>
+                <p style="color: slategray; font-size: 15px;">ou 5x de <span style="font-weight: bold;">R$56,00</span> sem juros</p><br>
+            
+            
+                <p>Cor: Branco</p>
+                <div class="cor"></div><br>
+
+                <p>Tamanho: G </p><br>
+                <span>
+                    <a href="#">P</a>
+                    <a href="#">M</a>
+                    <a href="#">G</a>
+                </span><br><br>
+
+                <div class="quantidade">
+                    Quantidade: <input type="number">
+                </div><br>
+
+                <div class="frete">
+                    <p><ins>Consulte o valor do frete:</ins></p><br>
+                    <span><input type="text" placeholder="Insira seu CEP">
+                        <button style="height: 44px; width: 60px; background-color: black; color: white;border: none;">
+                            OK
+                        </button>
+                    </span>
+                </div><br><br>
+
+                <button class="compra">
+                    <a href="#" style="text-decoration: none; background-color: #128E5B; border: none; color: white;">ADICIONAR A SACOLA</a>
+                </button>
+                <a href="..//catalago/catalago.html" style="text-align: center;border: none; width: 77%; font-weight: normal; font-size: 15px;"><ins>Continuar comprando</ins></a>
+            </div>
+        </section>
+
+        <section class="txt-produto">
+            <h3>Descrição do produto</h3>
+            <p>
+                MODELO Nº: 1040953-Preto <br>
+                VENDIDO E ENTREGUE POR: C&A
+            </p><br><br>
+
+            <p>
+                <strong>EAN:</strong> 984777111025670313<br>
+                <strong>Campanha:</strong> Inverno 2023<br>
+                <strong>Modelagem:</strong> Manga Longa<br>
+                <strong>Marca:</strong> Basics<br>
+                <strong>Gênero:</strong> Masculino<br>
+                <strong>Cor:</strong> Preto<br>
+                <strong>Coleção:</strong> Plus Size<br>
+                <strong>Material:</strong> Moletom<br>
+                <strong>Ocasião:</strong> Dia<br>
+            </p><br><br>
+            <p>
+                Blusão confeccionado em moletom com felpa. A peça possui capuz com cordão embutido, mangas longas raglan, bolso frontal canguru,
+                caimento reto e confortável com acabamento canelado.
+            </p><br>
+
+            <p>
+                PLUS SIZE
+                A C&A tem a maior variedade de roupas plus size com modelagens que se encaixam perfeitamente no seu corpo para você ficar incrível! Com muito mais tamanhos, as peças vão até o 56 para você encontrar o seu e arrasar! Vista as maiores tendências da moda plus size com muito estilo, cores, estampas, e com um toque de personalidade que é #muitoeu e #muitoon.
+            </p><br>
+
+            <p>Composição: 60% Algodão 40% Poliéster</p>
+        </section>
+        <footer>
+            <p>Site Desenvolvido por &copy; GabrielSardinha</p>
+        </footer>
+    </main>
+</body>
+</html>
